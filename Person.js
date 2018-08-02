@@ -22,6 +22,17 @@ class Person {
 }
 
 function main() {
+    var Will = new Person("will", 25, 130, 60)
+    var Bell = new Person("bell", 14, 100, 48)
+
+    console.log(Will.bodyMassIndex());
+    console.log(Bell.bodyMassIndex());
+
+    var arr = [Will,Bell]
+
+    Will.printPerson()
+
+
 
 }
 
